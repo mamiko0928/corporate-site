@@ -346,4 +346,8 @@ h1 {
   #sidebar .pc_sidemenu a:hover {
     color: #42b9d0; }
 
+@media (max-width: 550px) {
+  #contents #sidebar .pc_sidemenu .side {
+    display: none; } }
+
 /*# sourceMappingURL=sample.css.map */

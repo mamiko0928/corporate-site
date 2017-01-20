@@ -578,7 +578,7 @@ h1{
                     margin-bottom:0;
                     padding-right:10px;
                 }
-   
+ 
 }
 
 
@@ -634,4 +634,8 @@ h1{
   }      
  
  
- 
+@media (max-width:550px){ 
+   #contents #sidebar .pc_sidemenu .side{ 
+      display: none;
+   }
+}
