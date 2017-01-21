@@ -1,6 +1,7 @@
 html {
   font-size: 62.5%; }
 
+/**************************************/
 header {
   background: #eaf2f4; }
   header #header_in {
@@ -191,7 +192,7 @@ footer {
         list-style: none;
         margin-bottom: 1px; }
         footer .foot_navi li a {
-          color: #42b9d0;
+          ccolor: #42b9d0;
           background-color: #eaf2f4;
           display: block;
           text-align: center;
@@ -273,16 +274,19 @@ h1 {
 @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   #sub_cover {
     background-image: url("../images/news/sub_cover@2x.jpg"); } }
-#contents #main h2 {
-  font-size: 1.5rem;
-  padding-bottom: 15px;
-  color: #42b9d0;
-  border-bottom: 3px solid #42b9d0; }
-#contents #main .news_li {
-  font-size: 1.5rem; }
-#contents #main span {
-  color: #42b9d0;
-  font-weight: bold; }
+#contents {
+  padding-top: 20px; }
+  #contents #main
+  h2 {
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+    color: #42b9d0;
+    border-bottom: 3px solid #42b9d0; }
+  #contents .news_li {
+    font-size: 1.5rem; }
+  #contents span {
+    color: #42b9d0;
+    font-weight: bold; }
 
 @media (min-width: 550px) {
   #contents {
